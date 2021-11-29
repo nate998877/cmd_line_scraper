@@ -4,6 +4,8 @@ import re
 from bs4 import BeautifulSoup as bs
 
 
+    author = "nateTheNotSoGreat"
+
 def init_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument("url")
